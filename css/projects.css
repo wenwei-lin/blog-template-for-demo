@@ -22,3 +22,46 @@ main h2 {
   margin: 0 auto;
 }
 
+.project-card {
+  border: 1px solid #666;
+  border-radius: 8px;
+}
+
+.project-content-container {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-type {
+  color: #999;
+}
+
+.project-title h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.project-title p {
+  font-size: 14px;
+  color: #666;
+}
+
+.project-tags {
+  display: flex;
+  gap: 8px;
+}
+
+.project-tags li {
+  border: 1px solid #666;
+  padding: 1px 6px;
+  border-radius: 6px;
+}
+
+.project-list {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
